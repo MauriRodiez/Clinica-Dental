@@ -2,17 +2,20 @@ package com.clinica.Model;
 
 public class Odontologo {
     private Long id;
+    private String matricula;
     private String nombre;
     private String apellido;
-    private String matricula;
+
 
     public Odontologo(){
 
     }
-    public Odontologo(String nombre, String apellido, String matricula) {
+
+    public Odontologo(Long id, String matricula, String nombre, String apellido) {
+        this.id = id;
+        this.matricula = matricula;
         this.nombre = nombre;
         this.apellido = apellido;
-        this.matricula = matricula;
     }
 
     public Long getId() {
@@ -45,5 +48,15 @@ public class Odontologo {
 
     public void setMatricula(String matricula) {
         this.matricula = matricula;
+    }
+
+    @Override
+    public String toString() {
+        return "Odontologo{" +
+                "id=" + id +
+                ", matricula='" + matricula + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                '}';
     }
 }

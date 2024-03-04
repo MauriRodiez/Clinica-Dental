@@ -1,0 +1,18 @@
+[2024-03-01 20:52:38] [ INFO ] [DomicilioDaoH2:24] Estamos guardando un domicilio
+[2024-03-01 20:53:45] [ INFO ] [DomicilioDaoH2:24] Estamos guardando un domicilio
+[2024-03-04 11:04:19] [ INFO ] [DomicilioDaoH2:24] Estamos guardando un domicilio
+[2024-03-04 11:04:19] [ INFO ] [DomicilioDaoH2:52] Este es el id: 1
+[2024-03-04 11:04:19] [ INFO ] [DomicilioDaoH2:24] Estamos guardando un domicilio
+[2024-03-04 11:04:19] [ INFO ] [DomicilioDaoH2:52] Este es el id: 2
+[2024-03-04 11:04:19] [ INFO ] [DomicilioDaoH2:60] Estamos consultando todos los domicilios
+[2024-03-04 11:04:19] [ INFO ] [DomicilioDaoH2:89] Esta es la lista que se está devolviendo??? [Domicilio con id=1, calle= Calle A, numero=123, localidad='Luján, provincia='Mendoza, Domicilio con id=2, calle= Calle B, numero=456, localidad='Carlos Paz, provincia='Cordoba]
+[2024-03-04 11:04:19] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-03-04 11:04:19] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-03-04 11:04:19] [ ERROR] [OdontologoDaoH2:42] Se produjo un error y no es posible cargar los datos El objeto ya está cerrado
+The object is already closed [90007-214]
+[2024-03-04 11:04:19] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-03-04 11:04:19] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-03-04 11:04:19] [ ERROR] [OdontologoDaoH2:81] Se produjo un error y no es posible cargar los datos El objeto ya está cerrado
+The object is already closed [90007-214]
+[2024-03-04 11:04:19] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-03-04 11:04:19] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[]

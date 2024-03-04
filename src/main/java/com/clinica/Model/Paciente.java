@@ -7,7 +7,7 @@ public class Paciente {
     private Long id;
     private String nombre;
     private String apellido;
-    private String domicilio;
+    private Domicilio domicilio;
     private String dni;
     private Date fechaAlta;
     private String usuario;
@@ -17,7 +17,7 @@ public class Paciente {
 
     }
 
-    public Paciente(String nombre, String apellido, String domicilio, String dni, Date fechaAlta, String usuario, String password) {
+    public Paciente(String nombre, String apellido, Domicilio domicilio, String dni, Date fechaAlta, String usuario, String password) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.domicilio = domicilio;
@@ -51,11 +51,11 @@ public class Paciente {
         this.apellido = apellido;
     }
 
-    public String getDomicilio() {
+    public Domicilio getDomicilio() {
         return domicilio;
     }
 
-    public void setDomicilio(String domicilio) {
+    public void setDomicilio(Domicilio domicilio) {
         this.domicilio = domicilio;
     }
 
